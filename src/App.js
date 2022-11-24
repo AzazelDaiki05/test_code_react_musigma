@@ -21,9 +21,9 @@ export default function App() {
           backgroundColor: "#e3e3e3",
           borderRadius: "1vh",
           margin: "1vh",
-          padding: "2vh"
+          padding: "2vh",
         }}
-        onClick={fetchdata}
+        onClick={fetchData}
       >
         Fetch Content
       </button>
@@ -36,7 +36,7 @@ export default function App() {
               backgroundColor: "#e3e3e3",
               borderRadius: "1vh",
               margin: "5vh 2vh",
-              padding: "2vh"
+              padding: "2vh",
             }}
           >
             <div
@@ -47,7 +47,7 @@ export default function App() {
                 padding: "2vh",
                 fontSize: "3vh",
                 display: "flex",
-                flexWrap: "wrap"
+                flexWrap: "wrap",
               }}
             >
               <div>{obj.id}. </div>
